@@ -65,10 +65,11 @@ li{
 	padding-left: 30px;
 }
 
-table{
+table, td, tr, th{
 	background-image: url("grnMonster.jpg");
 	margin-left: auto;
 	margin-right: auto;
+	border: 1px dotted white;
 }
 
 #champs{

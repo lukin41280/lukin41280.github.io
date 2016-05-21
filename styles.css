@@ -2,8 +2,12 @@ body{
 	background-color: #84AE7B;
 }
 
-h3{
-	font-family: Helvetica;
+a:visited, a:link{
+	color: white;
+}
+
+a:hover{
+	color: blue;
 }
 
 h1{
@@ -11,12 +15,10 @@ h1{
 	margin-bottom: 50px;
 }
 
-a:visited, a:link{
-	color: white;
-}
-
-a:hover{
-	color: blue;
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .dirtWater{
@@ -27,26 +29,8 @@ a:hover{
 	text-align: center;
 }
 
-#foodList{
-	display: block;
-	border: 5px dotted maroon;
-	
-	padding-right: 30px;
-	background-color: tan;
-	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-
-}
-
-#champs{
-	border: 3px solid white;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-#tcLink{
-	padding-left: 30px;
+h3{
+	font-family: Helvetica;
 }
 
 li{
@@ -54,19 +38,29 @@ li{
 	list-style-type: none;
 }
 
-html{
-	align-items: center;
+#foodList{
+	display: block;
+	border: 5px dotted maroon;
+	padding-right: 30px;
+	background-color: tan;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#tcLink{
+	padding-left: 30px;
 }
 
 table{
 	background-image: url("grnMonster.jpg");
 	margin-left: auto;
 	margin-right: auto;
-	
 }
 
-img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+#champs{
+	border: 3px solid white;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }

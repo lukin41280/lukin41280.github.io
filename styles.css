@@ -11,6 +11,13 @@ h1{
 	margin-bottom: 50px;
 }
 
+a:visited, a:link{
+	color: white;
+}
+
+a:hover{
+	color: blue;
+}
 
 .dirtWater{
     font-family: Courier;
